@@ -1,5 +1,5 @@
 var fs = require("fs");
-var data = fs.readFileSync("databaseinfo.csv", "utf8");
+var data = fs.readFileSync("myCSVfile.csv", "utf8");
 var myArray = data.split(/\r\n/);
 
 function matchString(input){
